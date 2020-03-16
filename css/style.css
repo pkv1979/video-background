@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.section {
+  display: table;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  color: chocolate;
+  font-size: 25px;
+  font-weight: bold;
+}
